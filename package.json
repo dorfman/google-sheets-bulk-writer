@@ -1,0 +1,27 @@
+{
+  "name": "google-sheets-bulk-writer",
+  "version": "1.0.0",
+  "description": "JavaScript library for queueing data to be bulk written to the Google Sheets API on timed intervals to avoid violating the rate limit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorfman/dorfman-google-sheets-bulk-writer.git"
+  },
+  "keywords": [
+    "google sheets bulk writer",
+    "google sheets batch writer",
+    "gsheets batch"
+  ],
+  "author": "Henry Dorfman (@dorfman)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dorfman/dorfman-google-sheets-bulk-writer/issues"
+  },
+  "homepage": "https://github.com/dorfman/dorfman-google-sheets-bulk-writer#readme",
+  "dependencies": {
+    "googleapis": "^110.0.0"
+  }
+}
