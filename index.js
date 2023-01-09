@@ -130,7 +130,6 @@ class BulkWriter {
             })
             .catch(err => {
                 if (err.code === RATE_LIMIT_ERROR && retries < MAX_RETRIES) {
-                    console.log('oh no');
                     return setTimeout(() => this.write(range, values, retries + 1), ONE_MINUTE);
                 }
 
