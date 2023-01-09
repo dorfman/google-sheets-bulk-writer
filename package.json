@@ -16,7 +16,7 @@
     "gsheets batch"
   ],
   "author": "Henry Dorfman (@dorfman)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/dorfman/google-sheets-bulk-writer/issues"
   },
