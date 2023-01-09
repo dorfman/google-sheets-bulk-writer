@@ -3,9 +3,6 @@
   "version": "1.0.1",
   "description": "JavaScript library for queueing data to be bulk written to the Google Sheets API on timed intervals to avoid violating the rate limit",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dorfman/google-sheets-bulk-writer.git"
