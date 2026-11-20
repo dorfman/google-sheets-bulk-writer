@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/dorfman/google-sheets-bulk-writer#readme",
   "dependencies": {
-    "googleapis": "^110.0.0"
+    "googleapis": "^190.0.0"
   }
 }
