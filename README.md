@@ -1,6 +1,6 @@
 # Google Sheets Bulk Writer
 
-**JavaScript library for queueing data to be bulk written to the Google Sheets API on timed intervals to avoid violating the rate limit**
+**JavaScript library for queueing data to be bulk written to the Google Sheets API on timed intervals to avoid violating the rate limit.**
 
 ## Getting Started
 
@@ -63,7 +63,7 @@ setTimeout(() => {
 
 
 
-### API
+### API Reference
 #### start()
 Required to start the recurring bulk write.
 
@@ -106,3 +106,5 @@ Resets the `cache` object.
 #### setErrorHandler(errorHandler)
 Allows for custom handling of Google Sheets API errors. Expects a function as the parameter.
 
+## License
+This package is released under the [MIT License](https://github.com/dorfman/google-sheets-bulk-writer/blob/main/LICENSE).
